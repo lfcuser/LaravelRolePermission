@@ -16,7 +16,7 @@ php artisan vendor:publish --tag=laravel-role-permission-config
 Update laravel-role-permission.php for your project
 
 Add \Lfcuser\LaravelRolePermission\Middleware\RolePermissionMiddleware on your middleware chain
-OR extend your BaseController from \Lfcuser\LaravelRolePermission\Middleware\AccessResourceController
+OR extend your BaseController from \Lfcuser\LaravelRolePermission\Http\Controllers\AccessResourceController
 
 
 Add API if you need:
