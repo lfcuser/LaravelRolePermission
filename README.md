@@ -3,7 +3,15 @@
 Simple Roles-Permissions Managment package for Laravel ^11 and php ^8.2
 
 ## Setup
-Install composer require lfcuser/laravel-role-permission
+Install
+```
+composer require lfcuser/laravel-role-permission
+```
+
+Do
+```
+php artisan vendor:publish --tag=laravel-role-permission-config
+``
 
 Update laravel-role-permission.php for your project
 

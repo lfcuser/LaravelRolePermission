@@ -11,7 +11,7 @@ return [
         // Examples:
         'permission_roles_get_list' => [
             'permission_code' => 'permission_roles_get_list',
-            'description' => 'Get paginated rows permission_roles from database',
+            'description' => 'Get all rows permission_roles from database',
         ],
         'permission_roles_change_access' => [
             'permission_code' => 'permission_roles_change_access',
